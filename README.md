@@ -67,17 +67,19 @@ No prior experience with graph neural networks (GNNs) is required.
 
 ---
 
+
 ## Software Requirements
- 
-**Primary language:** [Python / R / Julia / Other]
- 
-**Language version:** [e.g., Python 3.12]
- 
+
+**Primary language:** Python
+
+**Language version:** Python 3.13.15
+
 ### Major Packages
-- [package] [version]
-- [package] [version]
-- [package] [version]
- 
+
+- PyTorch 2.11.0
+- PyTorch Geometric 2.8.1
+- Xarray 2025.12.0
+
 
 See `requirements.txt` for the complete environment.
 
