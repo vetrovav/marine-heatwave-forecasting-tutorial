@@ -86,24 +86,28 @@ See `requirements.txt` for the complete environment.
 ---
 
 ## Access this tutorial
-We recommend executing this notebook in a Colab environment to gain access to GPUs and to manage all necessary dependencies. <a target="_blank" href="yourcolabnotebooklinkenabledwithpropershareconditions">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+
+We recommend running this tutorial in Google Colab to access GPU acceleration and manage dependencies. The notebook should be tested in a fresh Colab environment before relying on this option.
+
+<a target="_blank" href="https://colab.research.google.com/github/vetrovav/marine-heatwave-forecasting-tutorial/blob/main/notebook/gnn_sst_forecasting_tutorial_fixed.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
 </a>
 
-To run locally, see:
+Alternatively, clone this repository and run the notebook locally using JupyterLab or Jupyter Notebook.
 
-➡️ `notebook/[final_notebook_name_without_version.ipynb]`
+➡️ [Graph Neural Networks for Ocean Forecasting — tutorial notebook](notebook/gnn_sst_forecasting_tutorial_fixed.ipynb)
 
-**Estimated time to execute end-to-end:** [insert runtime here].
+**Estimated time to execute end-to-end:** To be determined after testing.
 
-**Last successfully tested:** [YYYY-MM-DD]
+**Last successfully tested:** To be confirmed after a complete run.
 
 ### Model Information
-This submission does involve a machine-learning model.
 
-See:
+This tutorial uses a GraphSAGE model implemented with PyTorch Geometric for sea surface temperature anomaly (SSTA) forecasting.
 
-➡️ `model-card/MODEL_CARD.md`
+For the model's architecture, intended use, evaluation, and limitations, see:
+
+➡️ [Model card](model-card/model_card.md)
 
 ### Dataset Information
 This submission [does/does not] use a dataset.
