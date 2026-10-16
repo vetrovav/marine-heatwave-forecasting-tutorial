@@ -56,17 +56,15 @@ No prior experience with graph neural networks (GNNs) is required.
 
 
 ---
-
 ## Repository Contents
- 
+
 | Resource | Description |
 |----------|-------------|
-| `notebook/` | Jupyter notebook |
-| `model-card/` | Model documentation (if applicable)|
-| `datasheet/` | Dataset documentation (if applicable)|
-| `emissions-reporting/` | Energy/carbon reporting |
-| `figures/` | Images and figures (optional) |
-| `data/` | Dataset sample (optional) |
+| [Tutorial notebook](notebook/) | Jupyter notebook covering graph construction, GraphSAGE-based SSTA forecasting, baseline comparisons, and forecast evaluation. |
+| [Model card](model-card/) | Documentation of the GraphSAGE model, including its architecture, evaluation, and limitations. |
+| [Dataset documentation](datasheet/) | Description of the sea surface temperature dataset, preprocessing, and data characteristics. |
+| [Emissions reporting](emissions-reporting/) | Documentation of computational resources, energy consumption, and carbon emissions. |
+
 
 ---
 
