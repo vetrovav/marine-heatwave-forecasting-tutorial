@@ -1,1 +1,11 @@
+# Requirements for "Graph Neural Networks for Ocean Forecasting" tutorial
+# Tested with Python >= 3.11. On Google Colab, torch/numpy/pandas/matplotlib
+# are preinstalled; the notebook's first cell installs the remainder via pip.
 
+numpy>=2.0,<3
+pandas>=2.2
+xarray>=2024.6
+netCDF4>=1.7
+matplotlib>=3.9
+torch>=2.4
+torch_geometric>=2.6
