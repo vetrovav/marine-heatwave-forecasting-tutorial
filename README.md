@@ -38,10 +38,15 @@ This tutorial is designed for researchers, practitioners, and students working a
 - **Graduate students and early-career researchers** interested in developing an end-to-end, reproducible pipeline, from raw NetCDF data to spatial maps of forecasting skill, which they can extend to their own research projects.
 
 ### Prerequisites
+
 Participants should be familiar with:
-- [Prerequisite]
-- [Prerequisite]
-- [Prerequisite]
+
+- **Basic Python programming**, including NumPy arrays, functions, and plotting with Matplotlib.
+- **Jupyter or Google Colab notebooks** for running and modifying Python code.
+- **Fundamentals of supervised machine learning**, including model training, loss functions, and evaluation on held-out data.
+
+No prior experience with graph neural networks (GNNs) is required.
+
 
 ### Tutorial walkthrough video
 
@@ -95,11 +100,9 @@ To run locally, see:
 **Last successfully tested:** [YYYY-MM-DD]
 
 ### Model Information
-This submission [does/does not] involve a machine-learning model.
+This submission does involve a machine-learning model.
 
-[If the tutorial trains, fine-tunes, adapts, evaluates, or demonstrates an AI/ML model please provide a model-card. A description of model-cards is provided [here](https://arxiv.org/abs/1810.03993).]
-
-If applicable, see:
+See:
 
 ➡️ `model-card/MODEL_CARD.md`
 
