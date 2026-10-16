@@ -24,10 +24,13 @@ Provide a bulleted list of all author names, affiliations, and contact links.
 Originally presented at the [insert CCAI event or workshop full name with the year].
 ## Learning Objectives
 After completing this tutorial, participants should be able to:
-1. [Learning objective]
-2. [Learning objective]
-3. [Learning Objective]
-
+1. **Explain why graphs suit ocean data:** what teleconnections are, and why correlation-based edges capture structure that local convolution cannot.
+2. **Construct a graph from a gridded climate dataset:** nodes from ocean grid cells, edges from Pearson correlation on training data, without temporal leakage.
+3. **Train a GraphSAGE model** for 1-month-ahead global SSTA forecasting with PyTorch Geometric.
+4. **Evaluate forecasts against suitable baselines:** persistence and climatology, produce per-node skill maps rather than a single global score.
+5. **Produce recursive multi-step forecasts** and interpret how skill decays with lead time.
+6. **Recognize the extremes problem:** why MSE-trained models under-predict the large anomalies most relevant to marine heatwaves, and what research directions address it.
+  
 ### Intended Audience
 [Describe the intended audience and please be as specific as possible, especially with respect to their expected background.]
 
