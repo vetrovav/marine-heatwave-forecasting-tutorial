@@ -8,7 +8,11 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Abstract
-[Provide an abstract describing the tutorial.]
+The variability of sea surface temperature is one of the most consequential signals in the climate system: it shapes weather patterns, drives ENSO, and produces marine heatwaves (MHWs), prolonged extreme warm events that devastate marine ecosystems and the industries that depend on them.
+
+Most deep learning approaches to SST forecasting treat the ocean as an image and apply convolutional architectures. But the ocean is not an image: distant regions are physically and statistically coupled through teleconnections: an anomaly in the equatorial Pacific is linked to conditions off Australia, in the Indian Ocean, and beyond. A graph structure can allow to incorporate those long-range dependencies directly into the model.
+
+In this tutorial we build that idea end-to-end: convert a global gridded SST product into a graph whose edges encode teleconnections, train a GraphSAGE model for 1-month-ahead global SSTA forecasts, evaluate it against persistence and climatology baselines, map where the GNN adds skill (including known MHW hotspots), and extend forecasts to longer leads recursively. Throughout, we work with the paper's published artifacts: archived forecasts, model checkpoints, and code. Thefore users can compare everything they build against the published results
 ### Authors:
 
 Provide a bulleted list of all author names, affiliations, and contact links.
