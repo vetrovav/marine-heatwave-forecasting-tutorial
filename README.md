@@ -1,4 +1,4 @@
-# [Title of Contribution]
+# [Graph Neural Networks for Ocean Forecasting: Predicting Sea Surface Temperature Anomalies and Marine Heatwave Precursors]
 
 ![Python](https://img.shields.io/badge/language-Python-blue)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)
