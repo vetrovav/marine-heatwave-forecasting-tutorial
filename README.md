@@ -1,10 +1,11 @@
 # [Graph Neural Networks for Ocean Forecasting: Predicting Sea Surface Temperature Anomalies and Marine Heatwave Precursors]
 
-![Python](https://img.shields.io/badge/language-Python-blue)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![MIT License](https://img.shields.io/badge/license-MIT-green)
-
-[Required badges consist of 1) programming language + version 2) Jupyter, 3) main ML/data-science framework and 4) license. We do not require authors to create a badge for every dependency. We encourage authors to keep the top 3-5 significant dependencies. Badge urls can be found on [shields.io/badges](https://shields.io/badges)]
+![Python](https://img.shields.io/badge/Python-3.13.15-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.11.0-EE4C2C?logo=pytorch&logoColor=white)
+![PyTorch Geometric](https://img.shields.io/badge/PyTorch_Geometric-2.8.1-3C2179)
+![Xarray](https://img.shields.io/badge/Xarray-2025.12.0-336699)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Abstract
 [Provide an abstract describing the tutorial.]
