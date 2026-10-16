@@ -32,7 +32,10 @@ After completing this tutorial, participants should be able to:
 6. **Recognize the extremes problem:** why MSE-trained models under-predict the large anomalies most relevant to marine heatwaves, and what research directions address it.
   
 ### Intended Audience
-[Describe the intended audience and please be as specific as possible, especially with respect to their expected background.]
+This tutorial is designed for researchers, practitioners, and students working at the intersection of climate science and machine learning. Specifically:
+- **Ocean and climate scientists** who may not have a machine learning background but want hands-on experience applying GNNs to familiar datasets. GNN concepts are introduced through familiar ideas, such as correlation maps and teleconnection analysis, rather than assuming prior knowledge.
+- **Machine learning researchers and data scientists** looking to explore a scientific application involving open data, baseline comparisons, and open research problems.
+- **Graduate students and early-career researchers** interested in developing an end-to-end, reproducible pipeline, from raw NetCDF data to spatial maps of forecasting skill, which they can extend to their own research projects.
 
 ### Prerequisites
 Participants should be familiar with:
