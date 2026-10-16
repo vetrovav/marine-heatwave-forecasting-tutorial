@@ -110,13 +110,7 @@ For the model's architecture, intended use, evaluation, and limitations, see:
 ➡️ [Model card](model-card/model_card.md)
 
 ### Dataset Information
-This submission [does/does not] use a dataset.
-
-[If the tutorial utilizes a dataset, please provide a datasheet. A description of datasheets is provided [here](https://arxiv.org/abs/1803.09010).]
-
-If applicable, see:
-
-➡️ `datasheet/DATASHEET.md`
+This submission does not use a dataset.
 
 ### Sustainbility/Carbon Emissions
 Carbon emissions associated with the computational experiments were measured using [CodeCarbon or emissions tracking tool of choice].
